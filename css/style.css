@@ -1,0 +1,334 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.main_div{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+.darkcode .main_div h2{
+    color: #fff;
+}
+.main_div h2{
+    color: rgba(21, 8, 58, 0.575);
+    text-align: center;
+    margin: 10px 0;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    font-weight: lighter;
+    user-select: none;
+}
+.center_div{
+    top: 30px;
+    width: 100%;
+    height: 80vh;
+    /* background-color: red; */
+    position: relative;
+    display: flex; justify-content: center; align-items: center; 
+}
+.center_div .img_box{
+    width: 40%;
+    height: 100%;
+    display: flex; justify-content: center; align-items: center; flex-direction: column;
+    /* background-color: yellow; */
+}
+.center_div .img_box img{
+    border-radius: 40px;
+    width: 300px;
+}
+.center_div .form_box{
+    width: 60%;
+    height: 100%;
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: column;
+    /* background-color: rgb(221, 221, 173); */
+}
+.ftr{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    text-transform: capitalize;
+    color: rgba(27, 7, 83, 0.527);
+}
+.social_log{
+    position: relative;
+    width: 90%;
+    height: 30%;
+    /* background-color: red; */
+    display: flex; justify-content: center; align-items: center;
+    flex-direction: column;
+}
+.social_log a{
+    width: 80%;
+    height: 30%;
+    background-color: rgb(255, 136, 0);
+    display: flex; justify-content: center;
+    align-items: center;
+    margin: 7px 0;
+    text-transform: capitalize;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+a i{
+    margin-right: 4px;
+    font-size: 2rem!important;
+}
+.social_log a:nth-child(2){
+    background-color: rgb(46, 129, 161);
+}
+form{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+form .form_control{
+    width: 100%;
+    height: 13%;
+    /* background-color: rgb(235, 223, 223); */
+    display: flex; justify-content: center;
+    align-items: left; flex-direction: column;
+    position: relative;
+    margin: 3px 0;
+}
+.darkcode .form_control input{
+    border: 2px solid rgb(255, 255, 255);
+    color: #fff;
+}
+.form_control input{
+    height: 80%;
+    width: 80%;
+    border-radius: 40px;
+    outline: none;
+    border: 1px solid rgba(27, 7, 83, 0.527);
+    background-color: transparent;
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: rgb(0,0,0,.7);
+    position: relative;
+}
+.darkcode .form_control label{
+    background-color: rgb(8, 0, 0);
+    color: #fff;
+}
+.form_control label{
+    text-transform: capitalize;
+    color: slategrey;
+    user-select: none;
+    margin-left: 10px;
+    margin-top: -5px;
+    background-color: #ffffff;
+    width: 24%;
+    position: relative;
+    left: 20px;  
+    top: 10px;  
+    z-index: 99;
+    padding-left: 4px;
+}
+
+.form_control:nth-child(1) label{
+    width: 14%;
+}
+.form_control:nth-child(2) label{
+    width: 7%;
+}
+.form_control:nth-child(3) label{
+    width: 8%;
+}
+.form_control:nth-child(4) label{
+    width: 11%;
+}
+.form_control:nth-child(5) label{
+    width: 22%;
+}
+.form_control small{
+    color: rgb(255, 115, 0);
+    margin-left: 8px;
+    visibility: hidden;
+}
+
+.form_control input[type="checkbox"]{
+    position: absolute;
+    width: 17px;
+    margin-left: 10px;
+}
+.form_control .check_lable{
+    margin-left: 35px;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.52);
+    width: 50%;
+    text-align: left;
+    left: 0px;  
+    top: 0px;  
+    z-index: 99;
+    padding-left: 0px;
+}
+
+input[type="submit"]{
+    width: 50%;
+    height: 50px;
+    margin: 10px 0;
+    font-size: 1.2rem;
+    background-color: rgb(255, 136, 0);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    transition-duration: 100ms;
+}
+input[type="submit"]:hover{
+    background-color: rgb(105, 170, 8);
+}
+.success_room input{
+    border: 1px solid rgb(140, 223, 15)!important;
+}
+.log{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.form_control i{
+    position: absolute;
+    right: 23%;
+    visibility: hidden;
+}
+ .success_room .fa-check{
+    color: rgb(102, 163, 11);
+    font-size: 1.4rem!important;
+    visibility: visible;
+}
+
+.error_room .fa-exclamation-circle{
+    color: rgb(245, 131, 0);
+    font-size: 1.4rem!important;
+    visibility: visible;
+}
+.error_room input{
+    border: 1px solid red;
+}
+.img_box input[type="checkbox"]{
+    width: 90px;
+    height: 35px;
+    appearance: none;
+    -webkit-appearance: none;
+    /* background-color: red; */
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 40px;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgb(0,0,0,.2);
+    margin-bottom: 20px;
+}
+.img_box input[type="checkbox"]:checked{
+    background-color: rgb(255, 254, 254);
+}
+.img_box input[type="checkbox"]::before{
+    position: absolute;
+    content: '';
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: -3px;
+    left: -2px;
+    box-shadow: 0 0 9px rgb(0,0,0,.4);
+    transition-duration: 300ms;
+}
+.img_box input[type="checkbox"]:checked::before{
+    background-color: rgb(255, 254, 254);
+    left: 50px;
+}
+.fa-sun-o{
+    color: rgb(200, 171, 2);
+    position: relative;
+    top: -20px;
+    font-size: 2rem!important;
+}
+.darkcode{
+    background-color: rgb(8, 0, 0);
+    color: #fff!important;
+}
+.darkcode .ftr{
+    color: #fff;
+}
+
+@media(max-width:768px){
+    .main_div{
+        height: auto;
+    }
+    .center_div{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    .img_box{
+        width: 100%!important;
+        height: 100%;
+    }
+    .social_log{
+        width: 100%;
+    }
+    .social_log a{
+        height: 50px;
+        width: 80%!important;
+    }
+    .form_box{
+        width: 90%!important;
+        height: 100vh!important;
+    }
+    .form_control{
+        /* background-color: red; */
+    }
+    .form_control input{
+        height: 45px;
+        width: 95%;
+    }
+    .form_control:nth-child(1) label{
+        width: 25%;
+    }
+    .form_control:nth-child(2) label{
+        width: 13%;
+    }
+    .form_control:nth-child(3) label{
+        width: 15%;
+    }
+    .form_control:nth-child(4) label{
+        width: 22%;
+    }
+    .form_control:nth-child(5) label{
+        width: 41%;
+    }
+    .check_lable{
+        width: 60%!important;
+    }
+    input[type="submit"]{
+        width: 70%!important;
+        position: absolute;
+        bottom: 12%;
+    }
+    .log{
+      position: absolute;
+      right: 3%;
+      bottom: 9%;
+      z-index: 1;
+    }
+    .ftr{
+        position: absolute;bottom: 0;
+    }
+    .form_control i{
+        right: 10%;
+    }
+    
+ 
+}
